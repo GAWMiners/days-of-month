@@ -1,0 +1,42 @@
+{
+  "name": "days-of-month",
+  "version": "0.0.0",
+  "description": "simple module to get days in month",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "~2.3.1"
+  },
+  "devDependencies": {
+    "blanket": "~1.1.6",
+    "jostle": "~1.0.0",
+    "mocha": "~1.21.4",
+    "should": "~4.0.4"
+  },
+  "publishConfig": {
+    "registry": "https://gawlabs.registry.nodejitsu.com/"
+  },
+  "scripts": {
+    "test": "mocha -R spec",
+    "cover": "mocha -r blanket -R json-cov | jostle"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "/lib/",
+      "data-cover-never": "node_modules"
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "months",
+    "days"
+  ],
+  "author": "Evan Lucas <evan@gawlabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GAWMiners/days-of-month"
+  },
+  "homepage": "https://github.com/GAWMiners/days-of-month",
+  "bugs": {
+    "url": "https://github.com/GAWMiners/days-of-month/issues"
+  }
+}
