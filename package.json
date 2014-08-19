@@ -1,6 +1,6 @@
 {
   "name": "days-of-month",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "simple module to get days in month",
   "main": "index.js",
   "dependencies": {
