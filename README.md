@@ -20,9 +20,23 @@ $ npm test
 
 `opts` can have the following:
 
-- `utc`: Boolean should this be calculated using utc
-- `start`: String, Date, Moment the start date
-- `end`: String, Date, Moment the end date
+###### `utc` : Boolean
+
+should this be calculated using utc
+
+Default: `true`
+
+###### `start` : String, Date, Moment
+
+the start date
+
+Default: 1 month ago
+
+###### `end` : String, Date, Moment
+
+the end date
+
+Default: today
 
 #### Example
 
